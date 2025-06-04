@@ -1,11 +1,12 @@
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.counter-card {
+    background-color: #363636;
+    color: #ffffff;
+    font-size: 45px;
+    height: 70px;
+    padding: 8px 16px;
+    margin: 4px;
+    border-radius: 4px;
+    border: 1px #ffffff1d solid;
+    display: flex;
+    align-items: center;
+}
