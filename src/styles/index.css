@@ -1,3 +1,7 @@
+.main {
+        height: 100vh;
+}
+
 .counter-card {
     background-color: #363636;
     color: #ffffff;

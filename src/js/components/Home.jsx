@@ -1,25 +1,14 @@
+// Home.jsx
 import React from "react";
-
-//include images into your bundle
 import clock from "../../img/clock-regular.svg";
+import Counter from "./Counter"; // Asegúrate de que el path sea correcto
 
-//create your first component
 const Home = () => {
 	return (
-	<div>
-		<div className=" d-flex justify-content-center align-items-center  bg-dark p-3">
-            
+		<div className="main d-flex justify-content-center align-items-center bg-dark p-3 text-white">
 			<img className="counter-card" src={clock} alt="clock" style={{ width: "80px" }} />
-			<span className="counter-card">0</span>
-			<span className="counter-card">0</span>
-			<span className="counter-card">0</span>
-			<span className="counter-card">0</span>
-			<span className="counter-card">0</span>
-			<span className="counter-card">0</span>
-
-			
+			<Counter />
 		</div>
-	</div>		
 	);
 };
 
